@@ -1,3 +1,48 @@
+your first taskL:
+
+deeply analyze and understand files andd folders under frontend-main
+
+
+app-dashboard-leadmanagement--->inside e this deeply analyze and study all the files
+1) components
+2) data
+3) forms'
+4) page.tsx
+
+deeply analyze and understand all the files inside this all files 
+take a good understanding it from 
+after that deeply study DashboardService.ts file and understand the api flow
+for the detailed lead creation viewing , documenete etc.
+
+once it is done -->
+in our main mobile folder , deeply analyze and study the theme.js , all navoigation files , all files and folders under the  dashboard folder , each file analyze our current staus for the detailed lead cretion functtionlity all files AddDetailedLeadScreen.js LeadManagementScreen.js ReferralLeadModal.js analyze this file deeply and understand them 
+
+
+in this for now implement the loans:
+
+1) Home Loans
+2) Personal Loans lead creation functionlity 
+
+implement all the functionlity into this 
+
+creation 
+
+in 2 steps just like the frontend-main
+
+use the analysis made and things understood from them 
+
+make everthing works fine
+
+create best file and folder structure by keeping existing functtinlity working
+
+view docs :  (image , pdf)
+upload : 
+view form 
+
+follow best coding practices , do a deep research , how we can all the web functility onto our mobile app 
+
+
+
 create a detailed lead :
 
  http://192.168.1.58:5000/api/dashboard/create-detail-lead
@@ -218,3 +263,72 @@ backend response :
 
 when our id was 6 that is case 2 "is_self_login": false,
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "success": true,
+    "pending": [
+        {
+            "document_key": "BANK_STATEMENT",
+            "document_label": "6 Months Banking Statement"
+        },
+        {
+            "document_key": "ADDRESS_PROOF",
+            "document_label": "Address Proof"
+        },
+        {
+            "document_key": "PHOTOGRAPH",
+            "document_label": "Photograph"
+        },
+        {
+            "document_key": "COMPANY_ID",
+            "document_label": "Company ID Card"
+        }
+    ],
+    "uploaded": [
+        {
+            "document_key": "AADHAAR",
+            "document_label": "Aadhaar Card",
+            "file_url": "https://infinity-client-documents.s3.ap-south-1.amazonaws.com/users/2638/leads/PL_2025-26_0001/Loan/AADHAAR/e1cfbe07-a074-4c94-96ce-97e260e5fc5a.jpg",
+            "uploaded_at": "2026-01-31T09:44:49.310Z"
+        },
+        {
+            "document_key": "PAN",
+            "document_label": "Pan Card",
+            "file_url": "https://infinity-client-documents.s3.ap-south-1.amazonaws.com/users/2638/leads/PL_2025-26_0001/Loan/PAN/bb009775-f322-4fdb-97a4-ad9d6e41115c.jpg",
+            "uploaded_at": "2026-01-31T09:45:03.435Z"
+        },
+        {
+            "document_key": "SALARY_SLIP",
+            "document_label": "3 Months Salary Slip",
+            "file_url": "https://infinity-client-documents.s3.ap-south-1.amazonaws.com/users/2638/leads/PL_2025-26_0001/Loan/SALARY_SLIP/3f2aa45c-2f95-4019-b5f3-60e91a1571ed.jpg",
+            "uploaded_at": "2026-01-31T09:46:36.084Z"
+        },
+        {
+            "document_key": "FORM16",
+            "document_label": "Form 16",
+            "file_url": "https://infinity-client-documents.s3.ap-south-1.amazonaws.com/users/2638/leads/PL_2025-26_0001/Loan/FORM16/019061e9-d169-472a-970f-88869f092288.jpg",
+            "uploaded_at": "2026-01-31T09:46:47.068Z"
+        }
+    ]
+}
