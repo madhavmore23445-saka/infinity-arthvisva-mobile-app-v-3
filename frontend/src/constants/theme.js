@@ -1,29 +1,34 @@
 export const theme = {
     colors: {
-        primary: '#1A73E8',      // Google Blue
+        primary: '#2076c7',      // Google Blue
         secondary: '#00BFA5',    // Premium Teal
         accent: '#FFAB00',       // Amber Accent
-        background: '#FFFFFF',   // Pure White
-        surface: '#F8F9FA',      // Light Gray Surface
-        text: '#202124',         // Material Dark Text
-        textSecondary: '#5F6368', // Material Medium Text
-        error: '#D93025',        // Material Red Error
-        success: '#1E8E3E',      // Material Green Success
-        border: '#DADCE0',       // Standard Material Border
+        background: '#F8FAFC',   // Premium Slate Background
+        surface: '#FFFFFF',      // Pure White Surface
+        text: '#1E293B',         // Deep Slate Text
+        textSecondary: '#64748B', // Medium Slate Text
+        error: '#EF4444',        // Vibrant Red
+        success: '#10B981',      // Vibrant Green
+        border: '#E2E8F0',       // Light Slate Border
         white: '#FFFFFF',
         black: '#000000',
         activeTab: '#1A73E8',
         inactiveTab: '#F1F3F4',
         tabTextActive: '#1A73E8',
-        tabTextInactive: '#5F6368',
-        buttonGradient: ['#1A73E8', '#00BFA5'], // Note: This is for logical reference
+        tabTextInactive: '#64748B',
+        buttonGradient: ['#1A73E8', '#2076C7'],
 
-        // Lead Management Specific
-        brandTeal: '#1CADA3',
-        brandBlue: '#2076C7',
-        tableHeader: '#F9FAFB',
-        tableBorder: '#E5E7EB',
-        rowAlternate: '#FBFBFB',
+        // Premium Client Portfolio Specific
+        brandBlue:'#2076c7',     // Rich Blue#2563EB
+        brandTeal: '#0D9488',     // Deep Teal
+        cardShadow: 'rgba(0, 0, 0, 0.05)',
+        tableHeader: '#F8FAFC',
+        tableBorder: '#F1F5F9',
+        rowAlternate: '#F8FAFC',
+        badgeReferralBg: '#EFF6FF',
+        badgeReferralText: '#1D4ED8',
+        badgeDetailedBg: '#F0FDF4',
+        badgeDetailedText: '#15803D',
     },
     spacing: {
         xs: 4,
@@ -41,19 +46,26 @@ export const theme = {
         round: 100,
     },
     typography: {
-        h1: { fontSize: 28, fontWeight: '700', letterSpacing: -0.5 },
-        h2: { fontSize: 22, fontWeight: '700' },
-        h3: { fontSize: 18, fontWeight: '600' },
+        h1: { fontSize: 32, fontWeight: '800', letterSpacing: -0.8, color: '#0F172A' },
+        h2: { fontSize: 24, fontWeight: '700', letterSpacing: -0.5 },
+        h3: { fontSize: 20, fontWeight: '600', letterSpacing: -0.3 },
         body: { fontSize: 16, fontWeight: '400', lineHeight: 24 },
-        caption: { fontSize: 14, fontWeight: '500' },
-        label: { fontSize: 12, fontWeight: '600', textTransform: 'uppercase', letterSpacing: 1 },
+        caption: { fontSize: 14, fontWeight: '500', lineHeight: 20 },
+        label: { fontSize: 12, fontWeight: '700', textTransform: 'uppercase', letterSpacing: 1.2 },
     },
     shadow: {
-        shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.05,
-        shadowRadius: 8,
-        elevation: 3,
+        shadowColor: '#64748B',
+        shadowOffset: { width: 0, height: 4 },
+        shadowOpacity: 0.1,
+        shadowRadius: 12,
+        elevation: 5,
+    },
+    card: {
+        backgroundColor: '#FFFFFF',
+        borderRadius: 16,
+        padding: 16,
+        borderWidth: 1,
+        borderColor: '#F1F5F9',
     }
 };
 

@@ -24,4 +24,10 @@ export const DashboardService = {
         const response = await api.get("/api/dashboard/get-my-detail-leads");
         return response.data;
     },
+
+    // 🔹 Get All Client Details (New API)
+    getAllClientDetails: async () => {
+        const response = await api.get("/api/dashboard/all-client-detail");
+        return response.data;
+    },
 };
